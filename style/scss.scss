@@ -1,0 +1,157 @@
+.container-fluid {
+  font-family: Arial;
+  line-height: 1.4;
+  .header {
+    background: #445162;
+    color: #fff;
+
+    .row {
+      padding: 50px 0;
+      h1 {
+        font-size: 60px;
+
+      }
+      ul {
+        padding: 6px 6px 0;
+        li {
+          font-size: 20px;
+          list-style-type: none;
+        }
+      }
+    }
+
+  }
+
+  .about_product {
+    .row {
+      padding: 50px 0;
+            h2{
+        color: #445162;
+        font-size: 30px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  .pluses_product {
+    background: #f5f5f5;
+    .row {
+      padding: 25px 0;
+      h2{
+        font-size: 30px;
+        color: #445162;
+      }
+      ul {
+        li {
+          list-style-type: none;
+          padding: 15px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .scrinshots{
+    .row {
+      padding: 25px 0;
+      h2{
+        font-size: 30px;
+        color: #445162;
+      }
+      .in_scrinshots {
+        h3{
+          font-size: 24px;
+          color: #445162;
+        }
+        padding: 15px;
+        .in_scrinshots_text {
+          padding-left: 15px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .reviews {
+    background: #f5f5f5;
+    .row{
+      padding: 25px 0;
+    }
+    .in_reviews {
+      padding: 15px;
+      .in_reviews_text {
+        background: #ebebeb;
+        margin: 0 15px;
+        font-style: italic;
+        font-size: 14px;
+        span{
+          font-style: normal;
+          color: #989898;
+        }
+      }
+    }
+  }
+  .price {
+    .row {
+      padding: 25px 0;
+      h2{
+        font-size: 30px;
+        color: #445162;
+      }
+      h3 {
+        margin-top: 15px;
+        font-size: 24px;
+        color: #fff;
+      }
+      .packets {
+          background: #445162;
+        border-radius: 6px;
+          font-size: 14px;
+        color: #fff;
+        max-width: 300px;
+        margin: 0 23px;
+        .price_paket {
+          background: #fff;
+          color: #445162;
+          font-size: 40px;
+          margin: 15px 2px;
+        }
+        p{
+          text-align: left;
+          padding-left: 15px;
+          line-height: 1;
+        }
+        button{
+          text-transform: uppercase;
+          color: #445162;
+          font-size: 18px;
+          font-weight: 600;
+          padding: 7px 115px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  .contacts {
+    background: #445162;
+    .row {
+      padding: 25px 0;
+      h2 {
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      button {
+        text-transform: uppercase;
+        color: #445162;
+        font-weight: 600;
+        padding: 7px 40px;
+      }
+      textarea {
+        min-height: 170px;
+        border-radius: 5px;
+        border: none;
+        resize: none;
+      }
+    }
+  }
+}

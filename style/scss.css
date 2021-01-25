@@ -1,0 +1,147 @@
+.container-fluid {
+  font-family: Arial;
+  line-height: 1.4;
+}
+.container-fluid .header {
+  background: #445162;
+  color: #fff;
+}
+.container-fluid .header .row {
+  padding: 50px 0;
+}
+.container-fluid .header .row h1 {
+  font-size: 60px;
+}
+.container-fluid .header .row ul {
+  padding: 6px 6px 0;
+}
+.container-fluid .header .row ul li {
+  font-size: 20px;
+  list-style-type: none;
+}
+.container-fluid .about_product .row {
+  padding: 50px 0;
+}
+.container-fluid .about_product .row h2 {
+  color: #445162;
+  font-size: 30px;
+}
+.container-fluid .about_product .row p {
+  font-size: 16px;
+}
+.container-fluid .pluses_product {
+  background: #f5f5f5;
+}
+.container-fluid .pluses_product .row {
+  padding: 25px 0;
+}
+.container-fluid .pluses_product .row h2 {
+  font-size: 30px;
+  color: #445162;
+}
+.container-fluid .pluses_product .row ul li {
+  list-style-type: none;
+  padding: 15px;
+  font-size: 16px;
+}
+.container-fluid .scrinshots .row {
+  padding: 25px 0;
+}
+.container-fluid .scrinshots .row h2 {
+  font-size: 30px;
+  color: #445162;
+}
+.container-fluid .scrinshots .row .in_scrinshots {
+  padding: 15px;
+}
+.container-fluid .scrinshots .row .in_scrinshots h3 {
+  font-size: 24px;
+  color: #445162;
+}
+.container-fluid .scrinshots .row .in_scrinshots .in_scrinshots_text {
+  padding-left: 15px;
+  font-size: 16px;
+}
+.container-fluid .reviews {
+  background: #f5f5f5;
+}
+.container-fluid .reviews .row {
+  padding: 25px 0;
+}
+.container-fluid .reviews .in_reviews {
+  padding: 15px;
+}
+.container-fluid .reviews .in_reviews .in_reviews_text {
+  background: #ebebeb;
+  margin: 0 15px;
+  font-style: italic;
+  font-size: 14px;
+}
+.container-fluid .reviews .in_reviews .in_reviews_text span {
+  font-style: normal;
+  color: #989898;
+}
+.container-fluid .price .row {
+  padding: 25px 0;
+}
+.container-fluid .price .row h2 {
+  font-size: 30px;
+  color: #445162;
+}
+.container-fluid .price .row h3 {
+  margin-top: 15px;
+  font-size: 24px;
+  color: #fff;
+}
+.container-fluid .price .row .packets {
+  background: #445162;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #fff;
+  max-width: 300px;
+  margin: 0 23px;
+}
+.container-fluid .price .row .packets .price_paket {
+  background: #fff;
+  color: #445162;
+  font-size: 40px;
+  margin: 15px 2px;
+}
+.container-fluid .price .row .packets p {
+  text-align: left;
+  padding-left: 15px;
+  line-height: 1;
+}
+.container-fluid .price .row .packets button {
+  text-transform: uppercase;
+  color: #445162;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 7px 115px;
+  margin-bottom: 20px;
+}
+.container-fluid .contacts {
+  background: #445162;
+}
+.container-fluid .contacts .row {
+  padding: 25px 0;
+}
+.container-fluid .contacts .row h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.container-fluid .contacts .row button {
+  text-transform: uppercase;
+  color: #445162;
+  font-weight: 600;
+  padding: 7px 40px;
+}
+.container-fluid .contacts .row textarea {
+  min-height: 170px;
+  border-radius: 5px;
+  border: none;
+  resize: none;
+}
+
+/*# sourceMappingURL=scss.css.map */
