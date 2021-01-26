@@ -114,6 +114,13 @@
     .row{
       padding: 25px 0;
     }
+    .client {
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+      background: #445162;
+      text-align: center;
+    }
     .in_reviews {
       padding: 15px;
       .in_reviews_text {
@@ -146,7 +153,7 @@
           font-size: 14px;
         color: #fff;
         max-width: 300px;
-        margin: 0 23px;
+        margin: 15px 23px;
         .price_paket {
           background: #fff;
           color: #445162;
@@ -169,7 +176,7 @@
       }
     }
   }
-  .contacts {
+  .footer {
     background: #445162;
     .row {
       padding: 25px 0;
@@ -189,6 +196,124 @@
         border-radius: 5px;
         border: none;
         resize: none;
+      }
+      .contacts {
+        color: #fff;
+        li {
+          list-style-type: none;
+          position: relative;
+          padding: 10px 35px;
+
+        }
+        .skype:before {
+          position: absolute;
+          content: '';
+          width: 24px;
+          height: 26px;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          background: url("../image/sprite.png") -34px 26px;
+        }
+        .number:before {
+          position: absolute;
+          content: '';
+          width: 26px;
+          height: 26px;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          background: url("../image/sprite.png") -67px 27px;
+        }
+        .mail:before {
+          position: absolute;
+          content: '';
+          width: 22px;
+          height: 22px;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          background: url("../image/sprite.png") -102px 24px;
+        }
+        .phone:before {
+          position: absolute;
+          content: '';
+          width: 24px;
+          height: 23px;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          background: url("../image/sprite.png") -133px 25px;
+        }
+      }
+      .social {
+        margin-left: 25px;
+        li {
+          list-style-type: none;
+          position: relative;
+          padding: 25px 25px;
+        }
+        .twitter{
+          &:before{
+            position: absolute;
+            content: '';
+            width: 42px;
+            height: 42px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background: url("../image/sprite.png") -1px 0;
+            &:hover {
+              border: 1px solid red;
+            }
+          }
+        }
+
+
+        .facebook:before{
+          position: absolute;
+          content: '';
+          width: 42px;
+          height: 42px;
+          border-radius: 50%;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          background: url("../image/sprite.png") -50px 0;
+        }
+        .link:before{
+          position: absolute;
+          content: '';
+          width: 42px;
+          height: 42px;
+          border-radius: 50%;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          background: url("../image/sprite.png") -99px 0;
+        }
+        .gmail:before{
+          position: absolute;
+          content: '';
+          width: 42px;
+          height: 42px;
+          border-radius: 50%;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          background: url("../image/sprite.png") 91px 0;
+        }
+        .uTube:before{
+          position: absolute;
+          content: '';
+          width: 42px;
+          height: 42px;
+          border-radius: 50%;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          background: url("../image/sprite.png") 42px 0;
+        }
       }
     }
   }

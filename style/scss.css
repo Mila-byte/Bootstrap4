@@ -106,6 +106,13 @@
 .container-fluid .reviews .row {
   padding: 25px 0;
 }
+.container-fluid .reviews .client {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: #445162;
+  text-align: center;
+}
 .container-fluid .reviews .in_reviews {
   padding: 15px;
 }
@@ -137,7 +144,7 @@
   font-size: 14px;
   color: #fff;
   max-width: 300px;
-  margin: 0 23px;
+  margin: 15px 23px;
 }
 .container-fluid .price .row .packets .price_paket {
   background: #fff;
@@ -158,28 +165,141 @@
   padding: 7px 115px;
   margin-bottom: 20px;
 }
-.container-fluid .contacts {
+.container-fluid .footer {
   background: #445162;
 }
-.container-fluid .contacts .row {
+.container-fluid .footer .row {
   padding: 25px 0;
 }
-.container-fluid .contacts .row h2 {
+.container-fluid .footer .row h2 {
   color: #fff;
   font-size: 30px;
   margin-bottom: 30px;
 }
-.container-fluid .contacts .row button {
+.container-fluid .footer .row button {
   text-transform: uppercase;
   color: #445162;
   font-weight: 600;
   padding: 7px 40px;
 }
-.container-fluid .contacts .row textarea {
+.container-fluid .footer .row textarea {
   min-height: 170px;
   border-radius: 5px;
   border: none;
   resize: none;
+}
+.container-fluid .footer .row .contacts {
+  color: #fff;
+}
+.container-fluid .footer .row .contacts li {
+  list-style-type: none;
+  position: relative;
+  padding: 10px 35px;
+}
+.container-fluid .footer .row .contacts .skype:before {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 26px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../image/sprite.png") -34px 26px;
+}
+.container-fluid .footer .row .contacts .number:before {
+  position: absolute;
+  content: "";
+  width: 26px;
+  height: 26px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../image/sprite.png") -67px 27px;
+}
+.container-fluid .footer .row .contacts .mail:before {
+  position: absolute;
+  content: "";
+  width: 22px;
+  height: 22px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../image/sprite.png") -102px 24px;
+}
+.container-fluid .footer .row .contacts .phone:before {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 23px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../image/sprite.png") -133px 25px;
+}
+.container-fluid .footer .row .social {
+  margin-left: 25px;
+}
+.container-fluid .footer .row .social li {
+  list-style-type: none;
+  position: relative;
+  padding: 25px 25px;
+}
+.container-fluid .footer .row .social .twitter:before {
+  position: absolute;
+  content: "";
+  width: 42px;
+  height: 42px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../image/sprite.png") -1px 0;
+}
+.container-fluid .footer .row .social .twitter:before:hover {
+  border: 1px solid red;
+}
+.container-fluid .footer .row .social .facebook:before {
+  position: absolute;
+  content: "";
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../image/sprite.png") -50px 0;
+}
+.container-fluid .footer .row .social .link:before {
+  position: absolute;
+  content: "";
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../image/sprite.png") -99px 0;
+}
+.container-fluid .footer .row .social .gmail:before {
+  position: absolute;
+  content: "";
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../image/sprite.png") 91px 0;
+}
+.container-fluid .footer .row .social .uTube:before {
+  position: absolute;
+  content: "";
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../image/sprite.png") 42px 0;
 }
 
 /*# sourceMappingURL=scss.css.map */
