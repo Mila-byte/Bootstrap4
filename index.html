@@ -205,35 +205,41 @@
             <div class="col-12 text-center">
                 <h2>Contacts</h2>
             </div>
-            <div class="col col-md">
-                <form>
-                    <div class="form-row">
-                        <div class="form-group col-12">
-                            <input type="text" class="form-control" placeholder="Your name:">
-                        </div>
-                        <div class="form-group col-12">
-                            <input type="email" class="form-control" placeholder="Your email:">
-                        </div>
-                            <textarea class="form-group col-12" placeholder="Your message:"></textarea>
+            <div class="col-12 row justify-content-md-center">
+                <form class="col-12 col-md-6 text-center">
+                    <div class="form-group">
+                        <label for="name"></label>
+                        <input type="text" class="form-control" id="name" placeholder="Your name:">
                     </div>
-                    <button type="button" class="btn btn-light">Send</button>
+                    <div class="form-group">
+                        <label for="email"></label>
+                        <input type="text" class="form-control" id="email" placeholder="Your email:">
+                    </div>
+                    <div class="form-group">
+                        <label for="message"></label>
+                        <textarea class="form-control" id="message" name="message" placeholder="Your message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send</button>
                 </form>
+
+                <div class="block_contacts col-12 col-md-auto">
+                    <ul class="contacts col-12">
+                        <li><a class="skype" href="skype: here_your_login_skype?call">here_your_login_skype</a></li>
+                        <li><a class="number" href="#">279679659</a></li>
+                        <li><a class="mail" href="mailto: psdhtmlcss@mail.ru">psdhtmlcss@mail.ru</a></li>
+                        <li><a class="phone" href="tel: +80 00 4568 55 55">80 00 4568 55 55</a></li>
+                    </ul>
+                    <ul class="social row no-gutters col-12">
+                        <li><a class="twitter" href="#"></a></li>
+                        <li><a class="facebook" href="#"></a></li>
+                        <li><a class="link" href="#"></a></li>
+                        <li><a class="gmail" href="#"></a></li>
+                        <li><a class="uTube" href="#"></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="block_contacts col col-md">
-                <ul class="contacts col-12">
-                    <li class="skype">here_your_login_skype</li>
-                    <li class="number">279679659</li>
-                    <li class="mail">psdhtmlcss@mail.ru</li>
-                    <li class="phone">80 00 4568 55 55</li>
-                </ul>
-                <ul class="social row no-gutters col-12">
-                    <li ><a class="twitter" href="#"></a></li>
-                    <li class="facebook"><a href="#"></a></li>
-                    <li class="link"><a href="#"></a></li>
-                    <li class="gmail"><a href="#"></a></li>
-                    <li class="uTube"><a href="#"></a></li>
-                </ul>
-            </div>
+
         </div>
     </div>
 </div>

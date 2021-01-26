@@ -181,25 +181,27 @@
   color: #445162;
   font-weight: 600;
   padding: 7px 40px;
+  cursor: pointer;
+  background: #fff;
+}
+.container-fluid .footer .row button:hover {
+  background: #989898;
 }
 .container-fluid .footer .row textarea {
-  min-height: 170px;
-  border-radius: 5px;
-  border: none;
   resize: none;
 }
 .container-fluid .footer .row .block_contacts {
-  padding-left: 15px;
+  padding: 15px 15px;
 }
-.container-fluid .footer .row .contacts {
-  color: #fff;
-}
-.container-fluid .footer .row .contacts li {
+.container-fluid .footer .row .block_contacts .contacts li {
   list-style-type: none;
   position: relative;
   padding: 10px 35px;
 }
-.container-fluid .footer .row .contacts .skype:before {
+.container-fluid .footer .row .block_contacts .contacts li a {
+  color: #fff;
+}
+.container-fluid .footer .row .block_contacts .contacts li .skype:before {
   position: absolute;
   content: "";
   width: 24px;
@@ -209,7 +211,7 @@
   transform: translateY(-50%);
   background: url("../image/sprite.png") -34px 26px;
 }
-.container-fluid .footer .row .contacts .number:before {
+.container-fluid .footer .row .block_contacts .contacts li .number:before {
   position: absolute;
   content: "";
   width: 26px;
@@ -219,7 +221,7 @@
   transform: translateY(-50%);
   background: url("../image/sprite.png") -67px 27px;
 }
-.container-fluid .footer .row .contacts .mail:before {
+.container-fluid .footer .row .block_contacts .contacts li .mail:before {
   position: absolute;
   content: "";
   width: 22px;
@@ -229,7 +231,7 @@
   transform: translateY(-50%);
   background: url("../image/sprite.png") -102px 24px;
 }
-.container-fluid .footer .row .contacts .phone:before {
+.container-fluid .footer .row .block_contacts .contacts li .phone:before {
   position: absolute;
   content: "";
   width: 24px;
@@ -239,66 +241,38 @@
   transform: translateY(-50%);
   background: url("../image/sprite.png") -133px 25px;
 }
-.container-fluid .footer .row .social li {
-  list-style-type: none;
-  position: relative;
-  padding: 25px;
+.container-fluid .footer .row .social {
+  padding-left: 10px;
 }
-.container-fluid .footer .row .social .twitter:before {
-  position: absolute;
-  content: "";
+.container-fluid .footer .row .social li {
+  padding: 3px;
+  list-style-type: none;
+  font-size: 0;
+}
+.container-fluid .footer .row .social li a {
+  display: inline-block;
+  font-size: 16px;
   width: 42px;
   height: 42px;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  border-radius: 50%;
+}
+.container-fluid .footer .row .social li a:hover {
+  border: 2px solid #1c5dcf;
+  box-sizing: border-box;
+}
+.container-fluid .footer .row .social li .twitter {
   background: url("../image/sprite.png") -1px 0;
 }
-.container-fluid .footer .row .social .twitter:before:hover {
-  border: 1px solid red;
-}
-.container-fluid .footer .row .social .facebook:before {
-  position: absolute;
-  content: "";
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.container-fluid .footer .row .social li .facebook {
   background: url("../image/sprite.png") -50px 0;
 }
-.container-fluid .footer .row .social .link:before {
-  position: absolute;
-  content: "";
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.container-fluid .footer .row .social li .link {
   background: url("../image/sprite.png") -99px 0;
 }
-.container-fluid .footer .row .social .gmail:before {
-  position: absolute;
-  content: "";
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.container-fluid .footer .row .social li .gmail {
   background: url("../image/sprite.png") 91px 0;
 }
-.container-fluid .footer .row .social .uTube:before {
-  position: absolute;
-  content: "";
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.container-fluid .footer .row .social li .uTube {
   background: url("../image/sprite.png") 42px 0;
 }
 

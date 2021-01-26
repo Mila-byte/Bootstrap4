@@ -190,131 +190,102 @@
         color: #445162;
         font-weight: 600;
         padding: 7px 40px;
+        cursor: pointer;
+        background: #fff;
+        &:hover{
+          background: #989898;
+        }
       }
       textarea {
-        min-height: 170px;
-        border-radius: 5px;
-        border: none;
-        resize: none;
+           resize: none;
       }
       .block_contacts {
-        padding-left: 15px;
-      }
-      .contacts {
-        color: #fff;
-        li {
-          list-style-type: none;
-          position: relative;
-          padding: 10px 35px;
+        padding: 15px 15px;
+        .contacts {
+          li {
+            list-style-type: none;
+            position: relative;
+            padding: 10px 35px;
+            a {
+              color: #fff;
+            }
+            .skype:before {
+              position: absolute;
+              content: '';
+              width: 24px;
+              height: 26px;
+              left: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              background: url("../image/sprite.png") -34px 26px;
+            }
+            .number:before {
+              position: absolute;
+              content: '';
+              width: 26px;
+              height: 26px;
+              left: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              background: url("../image/sprite.png") -67px 27px;
+            }
+            .mail:before {
+              position: absolute;
+              content: '';
+              width: 22px;
+              height: 22px;
+              left: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              background: url("../image/sprite.png") -102px 24px;
+            }
+            .phone:before {
+              position: absolute;
+              content: '';
+              width: 24px;
+              height: 23px;
+              left: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              background: url("../image/sprite.png") -133px 25px;
+            }
+          }
 
-        }
-        .skype:before {
-          position: absolute;
-          content: '';
-          width: 24px;
-          height: 26px;
-          left: 0;
-          top: 50%;
-          transform: translateY(-50%);
-          background: url("../image/sprite.png") -34px 26px;
-        }
-        .number:before {
-          position: absolute;
-          content: '';
-          width: 26px;
-          height: 26px;
-          left: 0;
-          top: 50%;
-          transform: translateY(-50%);
-          background: url("../image/sprite.png") -67px 27px;
-        }
-        .mail:before {
-          position: absolute;
-          content: '';
-          width: 22px;
-          height: 22px;
-          left: 0;
-          top: 50%;
-          transform: translateY(-50%);
-          background: url("../image/sprite.png") -102px 24px;
-        }
-        .phone:before {
-          position: absolute;
-          content: '';
-          width: 24px;
-          height: 23px;
-          left: 0;
-          top: 50%;
-          transform: translateY(-50%);
-          background: url("../image/sprite.png") -133px 25px;
         }
       }
       .social {
+        padding-left: 10px;
         li {
+          padding: 3px;
           list-style-type: none;
-          position: relative;
-          padding: 25px;
-        }
-        .twitter{
-          &:before{
-            position: absolute;
-            content: '';
-            width: 42px;
-            height: 42px;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            background: url("../image/sprite.png") -1px 0;
-            &:hover {
-              border: 1px solid red;
-            }
+          font-size: 0;
+
+            a {
+              display: inline-block;
+              font-size: 16px;
+              width: 42px;
+              height: 42px;
+              border-radius: 50%;
+              &:hover {
+                border: 2px solid #1c5dcf;
+                box-sizing: border-box;
+              }
           }
-        }
-
-
-        .facebook:before{
-          position: absolute;
-          content: '';
-          width: 42px;
-          height: 42px;
-          border-radius: 50%;
-          left: 0;
-          top: 50%;
-          transform: translateY(-50%);
-          background: url("../image/sprite.png") -50px 0;
-        }
-        .link:before{
-          position: absolute;
-          content: '';
-          width: 42px;
-          height: 42px;
-          border-radius: 50%;
-          left: 0;
-          top: 50%;
-          transform: translateY(-50%);
-          background: url("../image/sprite.png") -99px 0;
-        }
-        .gmail:before{
-          position: absolute;
-          content: '';
-          width: 42px;
-          height: 42px;
-          border-radius: 50%;
-          left: 0;
-          top: 50%;
-          transform: translateY(-50%);
-          background: url("../image/sprite.png") 91px 0;
-        }
-        .uTube:before{
-          position: absolute;
-          content: '';
-          width: 42px;
-          height: 42px;
-          border-radius: 50%;
-          left: 0;
-          top: 50%;
-          transform: translateY(-50%);
-          background: url("../image/sprite.png") 42px 0;
+          .twitter {
+            background: url("../image/sprite.png") -1px 0;
+          }
+          .facebook {
+            background: url("../image/sprite.png") -50px 0;
+          }
+          .link {
+            background: url("../image/sprite.png") -99px 0;
+          }
+          .gmail {
+            background: url("../image/sprite.png") 91px 0;
+          }
+          .uTube {
+            background: url("../image/sprite.png") 42px 0;
+          }
         }
       }
     }

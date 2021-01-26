@@ -39,7 +39,7 @@
       <updated>1611598512088</updated>
       <workItem from="1611598517218" duration="248000" />
       <workItem from="1611599083251" duration="140000" />
-      <workItem from="1611648200692" duration="14250000" />
+      <workItem from="1611648200692" duration="23768000" />
     </task>
     <task id="LOCAL-00001" summary="change adaptive header">
       <created>1611653537079</created>
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611662779111</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removed horizontal scrolling">
+      <created>1611663837467</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611663837467</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +107,7 @@
     <MESSAGE value="change scrinshots" />
     <MESSAGE value="add contacts" />
     <MESSAGE value="add images" />
-    <option name="LAST_COMMIT_MESSAGE" value="add images" />
+    <MESSAGE value="removed horizontal scrolling" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed horizontal scrolling" />
   </component>
 </project>
