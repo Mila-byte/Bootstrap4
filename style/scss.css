@@ -9,6 +9,12 @@
 .container-fluid .header .row {
   padding: 50px 0;
 }
+@media (max-width: 576px) {
+  .container-fluid .header .row .logo {
+    max-width: 469px;
+    width: 100%;
+  }
+}
 .container-fluid .header .row h1 {
   font-size: 60px;
 }
@@ -18,6 +24,18 @@
 .container-fluid .header .row ul li {
   font-size: 20px;
   list-style-type: none;
+  padding-left: 35px;
+  position: relative;
+}
+.container-fluid .header .row ul li:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 19px;
+  background: url("../image/sprite.png") 0 19px;
 }
 .container-fluid .about_product .row {
   padding: 50px 0;

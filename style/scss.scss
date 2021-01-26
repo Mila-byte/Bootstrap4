@@ -7,6 +7,11 @@
 
     .row {
       padding: 50px 0;
+      @media (max-width: 576px) {
+        .logo {
+          max-width: 469px;
+          width: 100%;
+        }}
       h1 {
         font-size: 60px;
 
@@ -16,6 +21,18 @@
         li {
           font-size: 20px;
           list-style-type: none;
+          padding-left: 35px;
+          position: relative;
+          &:before {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 25px;
+            height: 19px;
+            background: url("../image/sprite.png") 0 19px;
+          }
         }
       }
     }
@@ -155,3 +172,4 @@
     }
   }
 }
+
