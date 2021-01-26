@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c501130d-e447-479e-9553-d488829ecb95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/scss.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss.css.map" afterDir="false" />
@@ -38,8 +39,16 @@
       <updated>1611598512088</updated>
       <workItem from="1611598517218" duration="248000" />
       <workItem from="1611599083251" duration="140000" />
-      <workItem from="1611648200692" duration="3928000" />
+      <workItem from="1611648200692" duration="5192000" />
     </task>
+    <task id="LOCAL-00001" summary="change adaptive header">
+      <created>1611653537079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611653537079</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -56,5 +65,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change adaptive header" />
+    <option name="LAST_COMMIT_MESSAGE" value="change adaptive header" />
   </component>
 </project>
