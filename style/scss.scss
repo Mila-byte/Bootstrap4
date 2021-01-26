@@ -197,6 +197,9 @@
         border: none;
         resize: none;
       }
+      .block_contacts {
+        padding-left: 15px;
+      }
       .contacts {
         color: #fff;
         li {
@@ -247,11 +250,10 @@
         }
       }
       .social {
-        margin-left: 25px;
         li {
           list-style-type: none;
           position: relative;
-          padding: 25px 25px;
+          padding: 25px;
         }
         .twitter{
           &:before{

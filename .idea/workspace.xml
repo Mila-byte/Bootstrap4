@@ -39,7 +39,7 @@
       <updated>1611598512088</updated>
       <workItem from="1611598517218" duration="248000" />
       <workItem from="1611599083251" duration="140000" />
-      <workItem from="1611648200692" duration="13039000" />
+      <workItem from="1611648200692" duration="14250000" />
     </task>
     <task id="LOCAL-00001" summary="change adaptive header">
       <created>1611653537079</created>
@@ -62,7 +62,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611657481309</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add contacts">
+      <created>1611662586398</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611662586399</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add images">
+      <created>1611662779111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611662779111</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +98,8 @@
     <MESSAGE value="change adaptive header" />
     <MESSAGE value="change &quot;about product&quot;" />
     <MESSAGE value="change scrinshots" />
-    <option name="LAST_COMMIT_MESSAGE" value="change scrinshots" />
+    <MESSAGE value="add contacts" />
+    <MESSAGE value="add images" />
+    <option name="LAST_COMMIT_MESSAGE" value="add images" />
   </component>
 </project>

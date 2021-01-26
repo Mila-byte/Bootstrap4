@@ -188,6 +188,9 @@
   border: none;
   resize: none;
 }
+.container-fluid .footer .row .block_contacts {
+  padding-left: 15px;
+}
 .container-fluid .footer .row .contacts {
   color: #fff;
 }
@@ -236,13 +239,10 @@
   transform: translateY(-50%);
   background: url("../image/sprite.png") -133px 25px;
 }
-.container-fluid .footer .row .social {
-  margin-left: 25px;
-}
 .container-fluid .footer .row .social li {
   list-style-type: none;
   position: relative;
-  padding: 25px 25px;
+  padding: 25px;
 }
 .container-fluid .footer .row .social .twitter:before {
   position: absolute;
