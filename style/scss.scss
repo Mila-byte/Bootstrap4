@@ -67,27 +67,43 @@
       ul {
         li {
           list-style-type: none;
-          padding: 15px;
+          padding: 0 15px 32px 44px;
           font-size: 16px;
+          position: relative;
+          &:before {
+            position: absolute;
+            text-align: center;
+            font-size: 25px;
+            content: '+';
+            top: 4px;
+            left: 0;
+            width: 32px;
+            height: 32px;
+            background: #445162;
+            color: #fff;
+          }
         }
       }
     }
   }
   .scrinshots{
     .row {
-      padding: 25px 0;
+      padding: 10px 0;
       h2{
         font-size: 30px;
         color: #445162;
+        padding-top: 15px;
       }
       .in_scrinshots {
         h3{
           font-size: 24px;
           color: #445162;
         }
-        padding: 15px;
-        .in_scrinshots_text {
+        .some_product{
           padding-left: 15px;
+        }
+        .in_scrinshots_text {
+          padding: 0 15px;
           font-size: 16px;
         }
       }
