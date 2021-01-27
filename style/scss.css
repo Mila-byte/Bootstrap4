@@ -138,6 +138,9 @@
   font-size: 24px;
   color: #fff;
 }
+.container-fluid .price .row .owl-carousel-block .packets {
+  cursor: pointer;
+}
 .container-fluid .price .row .packets {
   background: #445162;
   border-radius: 6px;
