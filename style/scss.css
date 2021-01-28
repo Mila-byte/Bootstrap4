@@ -129,6 +129,9 @@
 .container-fluid .price .row {
   padding: 25px 0;
 }
+.container-fluid .price .row .modal {
+  overflow-y: hidden;
+}
 .container-fluid .price .row h2 {
   font-size: 30px;
   color: #445162;
