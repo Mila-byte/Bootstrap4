@@ -190,6 +190,57 @@
                 <div class="col-12 text-center">
                     <h2>Buy it now</h2>
                 </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Name" name="name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="E-mail" name="email" required>
+                                    </div>
+
+                                        <label>
+                                            <input type="radio" name="typeofpackage" id="optionsRadios1" value="option1" checked>
+                                            Small package of services $100
+                                        </label>
+
+
+                                        <label>
+                                            <input type="radio" name="typeofpackage" id="optionsRadios2" value="option2">
+                                            Average package of services $150
+                                        </label>
+
+
+                                        <label>
+                                            <input type="radio" name="typeofpackage" id="optionsRadios3" value="option3">
+                                            Large package of services $200
+                                        </label>
+
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="agree" required>
+                                            I agree with the processing of personal data
+                                        </label>
+                                    </div>
+                                    <div class="text-center"><button type="submit" class="btn btn-light">Submit</button></div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-light">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="packets text-center col-12 col-md d-none d-xl-block">
                     <h3>Standart</h3>
                     <div class="price_paket">
@@ -199,7 +250,7 @@
                     <p>2. Lorem ipsum dolor sit amet.</p>
                     <p>3. Lorem ipsum dolor sit amet.</p>
                     <p>4. Lorem ipsum dolor sit amet.</p>
-                    <button type="button" class="btn btn-light">Buy</button>
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">Buy</button>
                 </div>
                 <div class="packets text-center col-12 col-md d-none d-xl-block">
                     <h3>Premium</h3>
@@ -214,7 +265,7 @@
                     <p>2. Lorem ipsum dolor sit amet.</p>
                     <p>3. Lorem ipsum dolor sit amet.</p>
                     <p>4. Lorem ipsum dolor sit amet.</p>
-                    <button type="button" class="btn btn-light">Buy</button>
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">Buy</button>
                 </div>
                 <div class="packets text-center col-12 col-md d-none d-xl-block">
                     <h3>Lux</h3>
@@ -233,7 +284,7 @@
                     <p>2. Lorem ipsum dolor sit amet.</p>
                     <p>3. Lorem ipsum dolor sit amet.</p>
                     <p>4. Lorem ipsum dolor sit amet.</p>
-                    <button type="button" class="btn btn-light">Buy</button>
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">Buy</button>
                 </div>
                 <div class="d-xl-none col-12">
                     <div class="owl-carousel owl-theme">
@@ -247,7 +298,7 @@
                                 <p>2. Lorem ipsum dolor sit amet.</p>
                                 <p>3. Lorem ipsum dolor sit amet.</p>
                                 <p>4. Lorem ipsum dolor sit amet.</p>
-                                <button type="button" class="btn btn-light">Buy</button>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">Buy</button>
                             </div>
                         </div>
                         <div class="owl-carousel-block row justify-content-center">
@@ -260,7 +311,7 @@
                                 <p>2. Lorem ipsum dolor sit amet.</p>
                                 <p>3. Lorem ipsum dolor sit amet.</p>
                                 <p>4. Lorem ipsum dolor sit amet.</p>
-                                <button type="button" class="btn btn-light">Buy</button>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">Buy</button>
                             </div>
                         </div>
                         <div class="owl-carousel-block row justify-content-center">
@@ -273,7 +324,7 @@
                                 <p>2. Lorem ipsum dolor sit amet.</p>
                                 <p>3. Lorem ipsum dolor sit amet.</p>
                                 <p>4. Lorem ipsum dolor sit amet.</p>
-                                <button type="button" class="btn btn-light">Buy</button>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">Buy</button>
                             </div>
                         </div>
                     </div>

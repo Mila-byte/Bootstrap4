@@ -4,9 +4,6 @@
     <list default="true" id="c501130d-e447-479e-9553-d488829ecb95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../adaptive — копия" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -43,7 +40,8 @@
       <workItem from="1611648200692" duration="23870000" />
       <workItem from="1611738293513" duration="231000" />
       <workItem from="1611771872801" duration="21000" />
-      <workItem from="1611771894699" duration="8124000" />
+      <workItem from="1611771894699" duration="8769000" />
+      <workItem from="1611825515149" duration="3119000" />
     </task>
     <task id="LOCAL-00001" summary="change adaptive header">
       <created>1611653537079</created>
@@ -101,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611778460053</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed markup">
+      <created>1611780322863</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611780322863</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +133,7 @@
     <MESSAGE value="removed horizontal scrolling" />
     <MESSAGE value="change footer" />
     <MESSAGE value="add owl-carousel plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="add owl-carousel plugin" />
+    <MESSAGE value="fixed markup" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed markup" />
   </component>
 </project>
